@@ -63,7 +63,7 @@ class AppStore {
 }
 
 const serializeState = createTransformer(store => ({
-    assignee: store.baba,
+    assignee: store.assignee,
     todos: store.todos.map(serializeTodo),
 }));
 
@@ -75,7 +75,7 @@ const serializeTodo = createTransformer(todo => ({
 
 function deserializeState(store, data) {
     store.todos = data.todos.map(todo => new Todo(todo.title, todo.done, todo.id));
-    store.assignee = data.baba
+    store.assignee = data.assignee
 }
 
 function tickTodo(todo) {
