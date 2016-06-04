@@ -3,7 +3,7 @@
   "name": "mobx-redux-devtools",
   "version": "0.0.1",
   "description": "A custom monitor for syncing mobx with redux devtools",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "provision": "npm install",
     "build": "cross-env PRODUCTION=1 webpack",
