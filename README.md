@@ -3,7 +3,9 @@
 # mobx-redux-devtools
 Simple package that allows you to sync [`redux-devtools`](https://github.com/gaearon/redux-devtools)
 with [`mobx`](https://github.com/mobxjs/mobx) structure which means you get of all devtool goodness like time-travel (*undo/redo*),
-persistence, charts, etc.
+persistence, charts,
+
+![Devtools preview](./docs/preview.gif)
 
 ## What is `mobx-redux-devtools`?
 When using `mobx` you can write your own time-traveling logic like [this example](https://github.com/mobxjs/mobx-reactive2015-demo)
