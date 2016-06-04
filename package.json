@@ -1,0 +1,47 @@
+
+{
+  "name": "mobx-redux-devtools",
+  "version": "0.0.1",
+  "description": "A custom monitor for syncing mobx with redux devtools",
+  "main": "src/index.js",
+  "scripts": {
+    "provision": "npm install",
+    "build": "cross-env PRODUCTION=1 webpack",
+    "clean": "rimraf ./build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antitoxic/mobx-redux-devtools.git"
+  },
+  "author": "Anton Stoychev <anton@stoychevart.com> (http://github.com/antitoxic)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antitoxic/mobx-redux-devtools/issues"
+  },
+  "homepage": "https://github.com/antitoxic/mobx-redux-devtools",
+  "devDependencies": {
+    "babel": "6.5.2",
+    "babel-core": "6.9.1",
+    "babel-eslint": "6.0.4",
+    "babel-loader": "6.2.4",
+    "babel-plugin-react-transform": "2.0.2",
+    "babel-plugin-transform-class-properties": "6.9.1",
+    "babel-plugin-transform-decorators-legacy": "1.3.4",
+    "babel-plugin-transform-object-assign": "6.8.0",
+    "babel-plugin-transform-object-rest-spread": "6.8.0",
+    "babel-plugin-transform-runtime": "6.9.0",
+    "babel-polyfill": "6.9.1",
+    "babel-preset-es2015": "6.9.0",
+    "babel-preset-react": "6.5.0",
+    "babel-runtime": "6.9.2",
+    "cross-env": "1.0.8",
+    "webpack": "^1.13.1"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0",
+    "react-dom": "^0.14.0 || ^15.0.0",
+    "redux-devtools": "^3.0.0",
+    "mobx": "^2.2.2",
+    "mobx-react": "^3.3.0",
+  }
+}
