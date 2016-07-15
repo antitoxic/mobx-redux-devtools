@@ -5,7 +5,7 @@ import {observer} from "mobx-react";
 import DockMonitor from 'redux-devtools-dock-monitor';
 import LogMonitor from 'redux-devtools-log-monitor';
 import SliderMonitor from 'redux-slider-monitor';
-import DevTools from './mobx-redux-devtools/devtools';
+import DevTools from 'mobx-redux-devtools/devtools';
 
 class Todo {
     id;
