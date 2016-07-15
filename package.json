@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "provision": "npm install",
-    "build": "webpack",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
