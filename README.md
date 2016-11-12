@@ -1,12 +1,12 @@
 # UNMAINTAINED
 
-This package is no longer maintained. Please use [zalmoxisus/mobx-remotedev(https://github.com/zalmoxisus/mobx-remotedev) instead.
+This package is no longer maintained. Please use [zalmoxisus/mobx-remotedev](https://github.com/zalmoxisus/mobx-remotedev) instead.
 
-The remotedev version is relies on [redux-devtools-extension](https://github.com/zalmoxisus/redux-devtools-extension) which has a greater community and therefore more likely to be up-to-date with latest browser or redux changes. It also differs in the fact that it provides a browser extension instead of having to insert visual elements (redux monitors) in your webpage. A third main difference is that `redux-devtools-extension` relies on automatic serialization/deserialization of stores by default where this repo relies on writing serializer/deserializer yourself. The second method is usually more reliable.
+The remotedev version relies on [redux-devtools-extension](https://github.com/zalmoxisus/redux-devtools-extension) which has a larger community and therefore more likely to be up-to-date with latest browser or redux changes. It also differs in the fact that it provides a browser extension instead of having to insert visual elements (redux monitors) in your webpage. A third and main difference is that `redux-devtools-extension` relies on automatic serialization/deserialization of stores by default where this repo relies on writing serializer/deserializer yourself. The manual serialization method is usually more reliable but the automatic works in most simple cases.
 
 **mobx-redux-devtools** (*this repo*) is a very basic wrapper around redux monitors and is useful if you want to do something custom yourself. A custom monitor, custom styling of a monitor, or some other integration. At the moment of this writing `redux-devtools-extension` doesn't allow such usage.
 
-**mobx-redux-devtools** (*this repo*) tracks all mobx observables by default where `redux-devtools-extension` only tracks provided stores. `redux-devtools-extension` can be set to track all stores by the `global` setting.
+**mobx-redux-devtools** (*this repo*) tracks all mobx observables by default where `redux-devtools-extension` only tracks provided stores. `redux-devtools-extension` can be set to track all stores using the `global` setting.
 
  ***If used you must transpile it yourself***
 
